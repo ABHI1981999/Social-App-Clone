@@ -1,0 +1,64 @@
+.RightContainer{
+    flex: 4;
+    height:calc(100vh - 50px) ;
+    
+}
+
+.BirthDayReminder{
+    display: flex;
+    align-items: center;
+}
+
+.BirthdayImg{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+
+.BirthDayText{
+    font-weight: 300;
+}
+
+.Advertisement{
+    width: 96%;
+    margin: 20px 0px 0 0;
+    border-radius: 9px;
+}
+
+.friend{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+.friendList{
+margin: 0;padding: 0;
+list-style: none;
+}
+
+.friendImg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.onlineBadge{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    top: 3px;
+    left: 38px;
+    border: 2px solid white;
+}
+
+.Title{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0 0 20px;
+}

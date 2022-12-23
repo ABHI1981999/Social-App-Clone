@@ -1,0 +1,98 @@
+.LeftContainer{
+    flex: 3;
+    height:calc(100vh - 50px) ;
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.leftwrapper{
+    padding: 20px;
+    
+}
+
+.leftList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.leftListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+
+.leftListItemName{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftBarListButton{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.leftBarhr{
+    margin: 20px 0;
+}
+
+
+
+.FriendList{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.FriendListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.FriendImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.FriendName{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftlistIcon{
+    font-size: 25px;
+    color: #1e55b1;
+    margin-top: 3px;
+    margin-right: 15px;
+    cursor: pointer;
+}

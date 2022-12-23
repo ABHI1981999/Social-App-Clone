@@ -1,0 +1,87 @@
+*{
+    font-size: 15px;
+    font-weight: 600;
+}
+.ShareContainer{
+    padding: 20px;
+}
+
+
+
+.shareIcon{
+    margin-right: 10px;
+}
+
+.photo{
+    font-size: 25px;
+    color: red;
+}
+
+.tag{
+    font-size: 25px;
+    color:  blue;
+}
+
+.location{
+    font-size: 25px;
+    color: green;
+}
+
+.feeling{
+    font-size: 25px;
+    color: gold;
+}
+
+.sharewrapper{
+    width: 94%;
+    padding: 20px !important;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 13px 29px 11px rgba(222,189,222,0.73);
+-moz-box-shadow: 10px 13px 29px 11px rgba(222,189,222,0.73);
+box-shadow: 10px 13px 29px 11px rgba(222,189,222,0.73);
+
+}
+
+.ShareImg{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.sharethought{
+    display: flex;
+    align-items: center;
+}
+
+.Thoughts{
+    margin-left: 20px;
+    width: 80%;
+    border: none;
+    outline: none;
+}
+
+.sharehr{
+    margin: 20px;
+}
+
+.shareoptions{
+    display: flex;
+    align-items: center;
+
+}
+
+.shareoption{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.shareButton{
+    margin-left: 81px;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
